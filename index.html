@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH Maphangisane Portfolio Website</title>
+    <link rel="icon" type="image/ico" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/933e2dc16e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <!-- Navigation -->
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, My name is <span>Thabang Hezekiel Maphangisane</span> from South Africa.</h1>
+                <h1>I'm a Software Engineer.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- image -->
+                <div class="about-col-1">
+                    <img src="/assets/user1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a full-stack developer. I develop, test, deploy, maintain, and support a portfolio of new and existing software applications and services.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <p>Front-end</p>
+                            <li><span>Programming Languages</span><br>HTML,CSS and JavaScript </li>
+                            <li><span>Frameworks</span><br>Angular,Flask,Bootstrap </li>
+                            <p>Back-end</p>
+                            <li><span>Programming Languages</span><br>Python, Java, C#, Nodejs</li>
+                            <li><span>Databases</span><br>MSSQL, MySQL, Postgres, MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2023</span><br>Fullstack Java Developer Training at SkillUp Simplilearn.</li>
+                            <li><span>2022 - 2022</span><br>Data Analyst Training at Udacity.</li>
+                            <li><span>2021-2022</span><br>Student Programmer at University of Limpopo.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 </span><br>Udacity - Data Analyst Nano Degree</li>
+                            <li><span>2021</span><br>BSc Mathematical Science (Statistics and Computer Science) at University of Limpopo.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>18 Apr 2023</span><br>Fullstack Java Development - SkillUp by Simplilearn</li>
+                            <li><span>05 Sep 2022</span><br>ALX-T Data Analyst - Udacity</li>
+                            <li><span>08 Jun 2022</span><br>Business Analytics with excel - SkillUp by Simplilearn</li>
+                            <li><span>13 Apr 2022</span><br>Data Science with Python- SkillUp by Simplilearn</li>
+                            <li><span>31 Mar 2022</span><br>Intro to SQL - SkillUp by Simplilearn</li>
+                            <li><span>27 Mar 2022</span><br>Hope2.IGNITE - IBM Skillsbuild</li>
+                            <li><span>22 Mar 2022</span><br>Problem Solving Using Computational Thinking - Coursera</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2>Web Applications</h2>
+                    <p>Web Application an application program that is stored on a remote server and delivered over the internet through a browser interface.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop fa-beat"></i>
+                    <h2>Desktop Applications</h2>
+                    <p>Desktop applications are software programs run locally on computer devices. They aren't accessible from a browser, like web-based apps, and require deployment on a personal computer or laptop</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile fa-beat"></i>
+                    <h2>Mobile Applications</h2>
+                    <p>A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch.!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/assets/Baipushi.png">
+                    <div class="layer">
+                        <h3>Baipushi Civil,Electrical and Armed Security Website</h3>
+                        <p>“For your Civil Engineering, Electrical and Armed Security needs work with Baipushices for your next project.”</p>
+                        <a href="http://baipushices.co.za/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/OCH.png">
+                    <div class="layer">
+                        <h3>Online communication App</h3>
+                        <p>Connecting students to interact with the centre for Student Counselling and Academic Excellence at the University of Limpopo during the Covid19 lockdown and ensures that they have access to all relevant information</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/Transport1.jpg">
+                    <div class="layer">
+                        <h3>Transport Management System</h3>
+                        <p>“Managing everything from booking a ride, managing employees and drivers, and getting quotations.”</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Maphangisane@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(+27) 719515412</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(+27) 636509145</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/thabang-maphangisane/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Maphangisane" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="/assets/TH_Maphangisane_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="copyright">
+            <p> Copyright &copy; 2023 | Made by Thabang Maphangisane</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
+    <!-- Tabs -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- sidemenu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+    <!-- Form -->
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx0BjnTAnU1x8BSqrd3FNVIYLbYgK3N5wTaUz1engXXugRVfnmVMczJdGdzd-L5rdPTYw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
