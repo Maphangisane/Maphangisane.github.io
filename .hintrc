@@ -1,3 +1,5 @@
+// configuration files
+
 {
   "extends": [
     "development"

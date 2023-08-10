@@ -1,0 +1,41 @@
+/* CSS imports */
+/* must import reset.css first */
+@import url("styles/reset.css");
+
+@import url("styles/header.css");
+@import url("styles/about.css");
+@import url("styles/services.css");
+@import url("styles/portfolio.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
+@import url("styles/media-query.css");
+
+/* CSS Variables */
+:root {
+
+  /* colors */
+  --primary-color: #00ff2f;
+  --secondary-color: #61b752 ;
+  --bg-color: #080808;
+  /* --bg-color1: #000000; */
+  --text-color: #fff; 
+  --text-color2: #ababab;
+
+  --backdrop-color: #262626;
+
+}
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
