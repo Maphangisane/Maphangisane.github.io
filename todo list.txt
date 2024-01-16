@@ -1,0 +1,6 @@
+# To do list
+- update the read me file
+- move the heading to center 
+- add 3 more project (ems, school template and data analysis project)
+- add read more button functionality
+- 
