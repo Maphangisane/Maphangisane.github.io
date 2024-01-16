@@ -3,6 +3,7 @@
 #about{
     padding: 80px 0;
     color: var(--text-color2);
+    background-color: var(--bg-color);
 }
 .row{
     display: flex;

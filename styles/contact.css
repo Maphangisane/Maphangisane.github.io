@@ -1,7 +1,7 @@
 
 /* contact section*/
-#about {
-    background-color: var(--backdrop-color);
+#contact {
+    background-color: var(--bg-color);
 }
 .contact-left{
     flex-basis: 35%;
